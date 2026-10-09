@@ -79,6 +79,17 @@ La aplicación recuerda en el navegador lo último que estabas haciendo.
   cortar es normal que tarde un segundo en rehacer el cuerpo.
 
 
+## Comentarios y errores
+
+Para avisar de un error o sugerir algo, escribí a **tesserakit.app@gmail.com**. Desde la
+aplicación: menú **Archivo → Comentarios y errores**, que abre el correo con una guía y los
+datos del navegador ya cargados. Contá qué estabas haciendo, qué esperabas y qué pasó; una
+captura de pantalla ayuda mucho.
+
+Si tenés cuenta de GitHub, también podés abrir un aviso en
+https://github.com/robertodip/topologia/issues
+
+
 ## Licencia
 
 © 2026 Arq. Roberto Dip. Se puede usar gratis para estudiar, enseñar e investigar, y

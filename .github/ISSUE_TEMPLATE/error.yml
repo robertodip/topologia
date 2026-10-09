@@ -1,0 +1,32 @@
+name: Error
+description: Algo no anda como debería
+title: "Error: "
+labels: [error]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por avisar. Si no tenés cuenta de GitHub, también podés escribir a **tesserakit.app@gmail.com**.
+  - type: textarea
+    id: haciendo
+    attributes:
+      label: Qué estabas haciendo
+      description: Cuerpo, fuerzas u operaciones activas, ejemplo elegido…
+    validations:
+      required: true
+  - type: textarea
+    id: esperaba
+    attributes:
+      label: Qué esperabas que pasara
+  - type: textarea
+    id: paso
+    attributes:
+      label: Qué pasó
+      description: Si podés, pegá una captura de pantalla.
+    validations:
+      required: true
+  - type: input
+    id: navegador
+    attributes:
+      label: Navegador y sistema
+      placeholder: "Edge en Windows 11, Chrome en Mac…"
