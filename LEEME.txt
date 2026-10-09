@@ -55,7 +55,7 @@ Mac y Linux con un navegador actualizado.
 ## El panel de la derecha
 
 - No cambian (topología): vértices V, aristas A, caras C, la característica de Euler
-  χ = V − A + C, el género (cantidad de agujeros), si es cerrada y si es orientable.
+  χ = V − A + C, el género (cantidad de perforaciones), si es cerrada y si es orientable.
   Debajo dice a qué figura es equivalente el cuerpo: una esfera, un toro, un disco…
 - Cambian (geometría): área y volumen, con el porcentaje respecto del original.
 
