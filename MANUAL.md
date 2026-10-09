@@ -2,9 +2,23 @@
 
 Arq. Roberto Dip
 
+## Imagen de la vista e impresión
+
+Menú **Archivo → Exportar imagen de la vista**. Solo la ventana de la vista (el plano o el volumen que
+está en pantalla, con la red, la malla, el original y los ejes si están prendidos), nunca los
+paneles:
+
+- **PNG**: fondo transparente.
+- **JPG**: fondo blanco.
+- **Imprimir** (también Ctrl+P): imprime solo la vista sobre el blanco del papel, en hoja
+  apaisada si la imagen es más ancha que alta.
+
+Siempre con los colores del tema claro (para que las líneas se vean sobre blanco), hasta 3
+veces la resolución de la pantalla (lado máximo 4096 px) y recortada al dibujo con un margen.
+
 ## Exportar
 
-Menú **Archivo → Exportar como**. Todos los archivos salen en **milímetros**: el lado más
+Menú **Archivo → Exportar modelo como**. Todos los archivos salen en **milímetros**: el lado más
 largo del cuerpo mide lo que indique «Lado mayor», y el cuerpo queda centrado y apoyado en el
 piso.
 

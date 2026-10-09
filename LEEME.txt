@@ -61,9 +61,16 @@ Mac y Linux con un navegador actualizado.
 
 ## Guardar el modelo
 
-Menú Archivo → Exportar como: STL (impresión 3D), OBJ, DXF o SketchUp (.dae), en
+Menú Archivo → Exportar modelo como: STL (impresión 3D), OBJ, DXF o SketchUp (.dae), en
 milímetros. Los detalles de cada formato y cómo abrirlos en SketchUp, Fusion o Blender están
 en MANUAL.md (se abre con el Bloc de notas).
+
+## Imagen e impresión
+
+Menú Archivo → Exportar imagen de la vista: guarda lo que se ve en la vista (sin los
+paneles) como PNG con fondo transparente o JPG con fondo blanco. Imprimir (o Ctrl+P)
+imprime solo la vista, sobre el blanco del papel: el fondo oscuro no se imprime. La imagen sale
+con los colores claros, a más resolución que la pantalla y recortada al cuerpo.
 
 La aplicación recuerda en el navegador lo último que estabas haciendo.
 
