@@ -12,11 +12,12 @@ Es gratis para estudiar y enseñar (ver la licencia, más abajo).
 
 ## Cómo abrirla
 
-Opción 1 — En línea (lo más fácil). Abrí este enlace en Edge o Chrome:
+Opción 1 — En línea (recomendada). Abrí este enlace en Edge o Chrome:
 
     https://robertodip.github.io/topologia/
 
-No hay que instalar nada. Hace falta internet solo para abrirla.
+No hay que instalar nada y siempre está en la última versión. Hace falta internet solo
+para abrirla. Si alguna vez parece vieja, recargá la página.
 
 Opción 2 — En la computadora, sin internet.
 
@@ -32,6 +33,24 @@ Google Chrome.
 
 Anda en cualquier PC con Windows 10 u 11 con Edge (viene instalado) o Chrome. También en
 Mac y Linux con un navegador actualizado.
+
+
+## Cómo actualizar la copia de la computadora
+
+La copia de la Opción 2 no se actualiza sola. Cuando haya una versión nueva:
+
+1. Borrá la carpeta Topologia vieja (o, si preferís, extraé la nueva en el mismo lugar
+   y, cuando Windows pregunte, elegí Reemplazar los archivos en el destino).
+2. Descargá el Topologia.zip nuevo desde el mismo enlace de arriba y extraelo como la
+   primera vez.
+3. Si tenías un acceso directo a index.html, volvé a crearlo apuntando a la carpeta nueva.
+
+Lo importante es que no queden dos copias: es fácil seguir abriendo la vieja sin darse cuenta.
+
+Las figuras guardadas (botón Guardar) no se pierden al actualizar: quedan en el navegador,
+no en la carpeta, así que la copia nueva las ve si la abrís con el mismo navegador. Eso sí,
+la versión en línea y la copia de la computadora no comparten las figuras: cada una tiene las
+suyas.
 
 
 ## Primeros pasos
@@ -64,11 +83,54 @@ Mac y Linux con un navegador actualizado.
 - La × de la esquina lo cierra para ver la figura entera; el botón Topología y
   geometría, en la misma esquina, lo vuelve a abrir.
 
-## Guardar el modelo
+## Llevar el modelo a SketchUp (paso a paso)
 
-Menú Archivo → Exportar modelo como: STL (impresión 3D), OBJ, DXF o SketchUp (.dae), en
-milímetros. Los detalles de cada formato y cómo abrirlos en SketchUp, Fusion o Blender están
-en MANUAL.md (se abre con el Bloc de notas).
+1. Exportar desde Topología
+
+1. Dejá la figura como la querés llevar.
+2. Abrí Archivo → Exportar modelo como.
+3. En Lado mayor poné cuánto querés que mida el lado más largo, en milímetros (viene en 80).
+4. En Resolución, si dice más de 100.000 triángulos, elegí Media o Baja (SketchUp
+   se pone lento).
+5. Clic en SketchUp. Se descarga un archivo .dae (por ejemplo
+   `topologia-toro-80mm.dae`) en Descargas.
+
+2. Importar en SketchUp (de escritorio: Pro, Studio o la versión para estudiantes)
+
+1. Archivo → Importar (File → Import).
+2. Abajo a la derecha, en el tipo de archivo, elegí COLLADA (*.dae).
+3. Seleccioná el archivo en Descargas y clic en Opciones: dejá tildadas
+   Validar archivo COLLADA y Unir caras coplanarias (ya vienen así). Aceptar.
+4. Abrir (Windows) o Importar (Mac). Si queda pegado al cursor, clic para ubicarlo; si
+   no lo ves, Zoom Extents (Ctrl+Mayús+E).
+5. Si se ven todos los triángulos: seleccionalo, clic derecho → Suavizar/alisar aristas
+   (Soften/Smooth Edges).
+
+Llega en milímetros y con los mismos ejes: x roja, y verde, z azul hacia arriba.
+
+Ojo: el SketchUp gratuito de la web no importa estos archivos (solo abre .skp e
+imágenes). SketchUp Make 2017 ya no se descarga del sitio oficial; si lo tenés instalado, sirve.
+
+## Otros programas gratuitos
+
+Para mirar o seguir trabajando el modelo sin SketchUp. Con estos conviene exportar STL u
+OBJ (Archivo → Exportar modelo como):
+
+- Online 3D Viewer — en el navegador, sin instalar, también en el celular (STL, OBJ o
+  .dae): https://3dviewer.net
+- Tinkercad — en el navegador, con cuenta gratuita (STL u OBJ; al importar elegí
+  milímetros): https://www.tinkercad.com
+- Blender — renders y animación (OBJ o STL): https://www.blender.org/download/
+- FreeCAD — CAD (STL u OBJ): https://www.freecad.org/downloads.php
+- MeshLab — revisar y aliviar la malla (STL, OBJ o .dae): https://www.meshlab.net
+- Impresión 3D (STL): PrusaSlicer, UltiMaker Cura u OrcaSlicer.
+
+## Manual
+
+El paso a paso completo, con los detalles de cada formato y de cada programa, está en el manual:
+desde la aplicación, Ayuda → Manual de uso, o en línea en
+https://robertodip.github.io/topologia/manual.html (en la copia de la computadora, también
+`manual.html` dentro de la carpeta).
 
 ## Imagen e impresión
 
