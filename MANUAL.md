@@ -23,6 +23,9 @@ milímetros y con la z hacia arriba.
 5. Hacé clic en **SketchUp**. Se descarga un archivo con un nombre como
    `topologia-toro-80mm.dae` en la carpeta **Descargas**.
 
+Si usás Topología en el **celular**, el archivo queda en las descargas del celular: pasalo a
+la computadora donde está SketchUp (por correo, Google Drive o cable) antes del paso 2.
+
 ### Paso 2 — Importar en SketchUp
 
 Hace falta SketchUp **de escritorio** (Pro, Studio o la versión para estudiantes) o SketchUp
@@ -69,11 +72,6 @@ Relevado en octubre de 2026; Trimble cambia los planes seguido.
 | SketchUp Pro / Studio | Escritorio | Sí (y también DXF y STL) | Pago |
 | SketchUp Studio para estudiantes | Escritorio | Sí (es la Pro) | US$ 55 por año (precio oficial); preguntá si tu facultad tiene licencias |
 | SketchUp for Schools | Web | Sí | Gratis, solo para escuelas primarias y secundarias |
-| SketchUp Make 2017 | Escritorio | Sí | Ya **no se descarga** del sitio oficial |
-
-**SketchUp Make 2017:** si ya lo tenés instalado, el .dae se importa igual que en el paso 2.
-No lo bajes de sitios no oficiales: es una versión vieja, sin actualizaciones de seguridad, y
-las copias sueltas pueden traer programas dañinos.
 
 **Si solo tenés el SketchUp gratuito de la web**, no puede abrir ningún archivo exportado por
 Topología. Para mirar, medir o seguir trabajando el modelo usá alguno de los
@@ -102,7 +100,8 @@ Detalles:
 - **Blender:** desde la versión 5 ya no abre .dae; usá OBJ (se pone de pie solo) o STL.
 - **Online 3D Viewer:** arrastrá el archivo a la página. Se abre en tu navegador: el archivo no
   se sube a ningún lado.
-- **Autodesk Fusion** (licencia gratuita de uso personal): ver [más abajo](#autodesk-fusion-uso-personal).
+- **Autodesk Fusion** (gratis para estudiantes y docentes con la licencia educativa): ver
+  [más abajo](#autodesk-fusion).
 
 ## Exportar: formatos y medidas
 
@@ -126,10 +125,11 @@ piso.
 El menú muestra cuántos triángulos va a tener el archivo. SketchUp se pone lento por encima de
 los 100.000: para esos casos conviene la resolución media o baja.
 
-### Autodesk Fusion (uso personal)
+### Autodesk Fusion
 
-La licencia gratuita de uso personal importa **STL** y **OBJ**; el **.dae no** y el **DXF**
-solo en 2D (el nuestro es 3D, no sirve). Conviene el **STL**:
+Es gratis para estudiantes y docentes con la licencia educativa de Autodesk (se renueva cada
+año) y también con la licencia de uso personal. Importa **STL** y **OBJ**; el **.dae no** y el
+**DXF** solo en 2D (el nuestro es 3D, no sirve). Conviene el **STL**:
 
 - **Insertar → Insertar malla** (Insert → Insert Mesh) y elegir **milímetros** en el diálogo:
   así queda en tamaño real (ni el STL ni el OBJ guardan las unidades).

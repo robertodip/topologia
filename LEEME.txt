@@ -57,8 +57,9 @@ suyas.
 
 - Arriba, dos pestañas: Superficies (hojas planas y la cinta de Möbius) y
   Volúmenes (cubo, prismas, cilindro, esfera, toroide).
-- Mover la vista: arrastrar con el mouse para girar, la rueda para acercar, el botón
-  derecho para desplazar.
+- Mover la vista: con el mouse, arrastrar para girar, la rueda para acercar, el botón
+  derecho para desplazar. En el celular o la tableta: un dedo gira, dos dedos acercan y
+  desplazan.
 - Fuerzas (panel de la izquierda): torsión, flexión, plegar, ahusado, estirar,
   esferizar, ondulación, abollar. Se activan con su casilla y se ajustan con los
   deslizadores.
@@ -93,7 +94,8 @@ suyas.
 4. En Resolución, si dice más de 100.000 triángulos, elegí Media o Baja (SketchUp
    se pone lento).
 5. Clic en SketchUp. Se descarga un archivo .dae (por ejemplo
-   `topologia-toro-80mm.dae`) en Descargas.
+   `topologia-toro-80mm.dae`) en Descargas. Si lo exportaste desde el celular, pasalo a
+   la computadora donde está SketchUp (por correo, Google Drive o cable).
 
 2. Importar en SketchUp (de escritorio: Pro, Studio o la versión para estudiantes)
 
@@ -109,7 +111,8 @@ suyas.
 Llega en milímetros y con los mismos ejes: x roja, y verde, z azul hacia arriba.
 
 Ojo: el SketchUp gratuito de la web no importa estos archivos (solo abre .skp e
-imágenes). SketchUp Make 2017 ya no se descarga del sitio oficial; si lo tenés instalado, sirve.
+imágenes): para mirar o seguir trabajando el modelo, usá uno de los programas gratuitos de
+abajo.
 
 ## Otros programas gratuitos
 
