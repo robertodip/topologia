@@ -19,7 +19,8 @@ milímetros y con la z hacia arriba.
 3. En **Lado mayor** poné cuánto querés que mida, en milímetros, el lado más largo de la
    figura (viene en 80 mm). Debajo se ven las medidas que va a tener.
 4. En **Resolución** mirá cuántos triángulos dice que va a tener el archivo. Si pasa de
-   100.000, elegí **Media** o **Baja**: SketchUp se pone muy lento con tantos.
+   100.000, elegí **Media** o **Baja**: SketchUp se pone muy lento con tantos. (Cuándo
+   conviene cada una: [Resolución](#resolucion).)
 5. Hacé clic en **SketchUp**. Se descarga un archivo con un nombre como
    `topologia-toro-80mm.dae` en la carpeta **Descargas**.
 
@@ -118,12 +119,25 @@ piso.
 
 ### Resolución
 
+Se elige en el menú **Archivo → Exportar modelo como**, en **Resolución**, antes de hacer clic
+en el formato. Debajo, el menú muestra cuántos triángulos va a tener el archivo.
+
 - **Completa**: la malla tal como se ve en pantalla.
 - **Media** y **Baja**: vuelven a armar el cuerpo con menos triángulos y le aplican las mismas
-  fuerzas; la forma y la topología son las mismas y el archivo pesa mucho menos.
+  fuerzas; la forma y la topología son las mismas y el archivo pesa mucho menos. Las curvas se
+  ven un poco más facetadas.
 
-El menú muestra cuántos triángulos va a tener el archivo. SketchUp se pone lento por encima de
-los 100.000: para esos casos conviene la resolución media o baja.
+**Cuándo elegir cada una:**
+
+| Resolución | Cuándo conviene |
+|---|---|
+| **Completa** | Renders e imágenes (Blender), impresión 3D (las curvas salen más suaves) y cualquier programa que la abra sin ponerse lento. |
+| **Media** | **SketchUp** cuando el menú dice más de 100.000 triángulos. También si el programa se pone lento con la completa, o para mandar el archivo por correo. |
+| **Baja** | **Autodesk Fusion** si vas a convertir la malla en sólido; **Tinkercad** si el archivo pasa de 25 MB; computadoras lentas; o si con la media sigue pesado. |
+
+Regla práctica: empezá por **Completa**. Si el menú dice más de 100.000 triángulos o el
+programa se pone lento, volvé a exportar en **Media**; si sigue pesado, en **Baja**. Como
+referencia, el STL pesa unos 5 MB cada 100.000 triángulos.
 
 ### Autodesk Fusion
 

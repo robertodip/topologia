@@ -128,6 +128,13 @@ OBJ (Archivo → Exportar modelo como):
 - MeshLab — revisar y aliviar la malla (STL, OBJ o .dae): https://www.meshlab.net
 - Impresión 3D (STL): PrusaSlicer, UltiMaker Cura u OrcaSlicer.
 
+¿Qué resolución elegir? (Archivo → Exportar modelo como → Resolución, antes de hacer clic
+en el formato.) Empezá por Completa: es la mejor para renders e impresión 3D. Si el menú
+dice más de 100.000 triángulos o el programa se pone lento (SketchUp, por ejemplo), usá
+Media; para Fusion o Tinkercad con archivos pesados, Baja. La forma y la topología
+son las mismas en las tres. Más detalle en el manual:
+https://robertodip.github.io/topologia/manual.html#resolucion
+
 ## Manual
 
 El paso a paso completo, con los detalles de cada formato y de cada programa, está en el manual:
