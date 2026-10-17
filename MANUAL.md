@@ -2,6 +2,20 @@
 
 Arq. Roberto Dip
 
+## Guardar y recuperar figuras
+
+**Guardar** (en la cabecera) guarda la figura que está en pantalla con un nombre: el cuerpo base
+con las operaciones, las fuerzas (con sus valores y su orden), los tirones y la posición de la
+barra t. Es una foto: no guarda cómo se llegó a ella. Si el nombre ya existe, avisa y la
+reemplaza.
+
+**Recuperar** muestra la lista de figuras guardadas (la más nueva arriba) con el cuerpo y las
+transformaciones de cada una. «Recuperar» la pone en pantalla; se puede volver atrás con
+**Deshacer**. «✕» la borra (pide un segundo clic).
+
+Las figuras quedan guardadas en el navegador de esa computadora: otro navegador u otra
+computadora no las ven, y se pierden si se borran los datos de navegación del sitio.
+
 ## Imagen de la vista e impresión
 
 Menú **Archivo → Exportar imagen de la vista**. Solo la ventana de la vista (el plano o el volumen que

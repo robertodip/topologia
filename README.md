@@ -51,6 +51,9 @@ Mac y Linux con un navegador actualizado.
 - **Operaciones NO topológicas** (en rojo, solo en Volúmenes): perforar y cortar. Son las
   que sí cambian la topología; el panel avisa cuando eso pasa.
 - **Deshacer / Rehacer** en la cabecera.
+- **Guardar / Recuperar** en la cabecera: «Guardar» guarda la figura como está (el cuerpo con
+  sus operaciones, fuerzas y tirones) con el nombre que elijas; «Recuperar» la vuelve a poner.
+  Quedan guardadas en ese navegador y esa computadora (no viajan con el archivo).
 
 ## El panel de la derecha
 
@@ -58,6 +61,8 @@ Mac y Linux con un navegador actualizado.
   χ = V − A + C, el género (cantidad de perforaciones), si es cerrada y si es orientable.
   Debajo dice a qué figura es **equivalente** el cuerpo: una esfera, un toro, un disco…
 - **Cambian (geometría):** área y volumen, con el porcentaje respecto del original.
+- La **×** de la esquina lo cierra para ver la figura entera; el botón **Topología y
+  geometría**, en la misma esquina, lo vuelve a abrir.
 
 ## Guardar el modelo
 
