@@ -12,45 +12,15 @@ Es gratis para estudiar y enseñar (ver la licencia, más abajo).
 
 ## Cómo abrirla
 
-**Opción 1 — En línea (recomendada).** Abrí este enlace en Edge o Chrome:
+Abrí este enlace en Edge o Chrome:
 
     https://robertodip.github.io/topologia/
 
 No hay que instalar nada y **siempre está en la última versión**. Hace falta internet solo
 para abrirla. Si alguna vez parece vieja, recargá la página.
 
-**Opción 2 — En la computadora, sin internet.**
-
-1. Descargá **Topologia.zip**:
-   https://github.com/robertodip/topologia/releases/latest/download/Topologia.zip
-2. En la carpeta Descargas, clic derecho sobre **Topologia.zip** → **Extraer todo…** →
-   **Extraer**. (Si se abre el .zip con doble clic y se entra a index.html desde ahí, la
-   aplicación no anda: primero hay que extraerlo.)
-3. En la carpeta extraída, doble clic en **index.html**. Se abre en el navegador.
-
-Si index.html se abre con otro programa: clic derecho → **Abrir con** → Microsoft Edge o
-Google Chrome.
-
 Anda en cualquier PC con Windows 10 u 11 con Edge (viene instalado) o Chrome. También en
 Mac y Linux con un navegador actualizado.
-
-
-## Cómo actualizar la copia de la computadora
-
-La copia de la Opción 2 no se actualiza sola. Cuando haya una versión nueva:
-
-1. Borrá la carpeta **Topologia** vieja (o, si preferís, extraé la nueva en el mismo lugar
-   y, cuando Windows pregunte, elegí **Reemplazar los archivos en el destino**).
-2. Descargá el **Topologia.zip** nuevo desde el mismo enlace de arriba y extraelo como la
-   primera vez.
-3. Si tenías un acceso directo a index.html, volvé a crearlo apuntando a la carpeta nueva.
-
-Lo importante es que no queden dos copias: es fácil seguir abriendo la vieja sin darse cuenta.
-
-Las **figuras guardadas** (botón Guardar) no se pierden al actualizar: quedan en el navegador,
-no en la carpeta, así que la copia nueva las ve si la abrís con el mismo navegador. Eso sí,
-la versión en línea y la copia de la computadora no comparten las figuras: cada una tiene las
-suyas.
 
 
 ## Primeros pasos
@@ -139,8 +109,7 @@ https://robertodip.github.io/topologia/manual.html#resolucion
 
 El paso a paso completo, con los detalles de cada formato y de cada programa, está en el **manual**:
 desde la aplicación, **Ayuda → Manual de uso**, o en línea en
-https://robertodip.github.io/topologia/manual.html (en la copia de la computadora, también
-`manual.html` dentro de la carpeta).
+https://robertodip.github.io/topologia/manual.html.
 
 ## Imagen e impresión
 
@@ -154,8 +123,8 @@ La aplicación recuerda en el navegador lo último que estabas haciendo.
 
 ## Si algo no anda
 
-- **Dice «Faltan archivos de la aplicación»:** se abrió desde adentro del .zip. Extraelo
-  primero (paso 2 de arriba).
+- **Dice «Faltan archivos de la aplicación»:** no terminó de cargar. Revisá la conexión y
+  recargá la página.
 - **Dice «El navegador no puede dibujar en 3D»:** usá Edge o Chrome actualizados. En la
   configuración del navegador → Sistema, activá «Usar la aceleración de gráficos cuando esté
   disponible» y reinicialo.
